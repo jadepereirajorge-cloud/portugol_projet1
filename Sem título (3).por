@@ -9,7 +9,7 @@ programa {
     }senao se (n2 > n1){
       escreva("A ordem cresente dos números é",n2, n1)
     }senao{
-      escreva("OS valores são iguais! XXXXXX")
+      escreva("OS valores são iguais! yyyyyy")
     }
     
   }
