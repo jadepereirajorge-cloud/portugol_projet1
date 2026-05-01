@@ -1,0 +1,33 @@
+programa {
+  funcao inicio() {
+    inteiro n1, n2, total
+    caracter op
+    escreva("Digite dois números\n")
+    leia(n1)
+    leia(n2)
+    faca {
+    escreva("Digite um operador[+, -, /, *, %]\n")
+    leia(op)
+    } enquanto ((op != '+') e (op != '-') e (op != '/') e (op != '*') e (op != '%'))
+    se (op == '+')
+    total = n1 + n2
+    se (op == '-')
+    total = n1 - n2
+    se (op == '/')
+    se(n2 == 0)
+    escreva("Divisor inválido")
+    senao
+    total = n1/n2
+    se (op == '*')
+    total = n1*n2
+    se (op == '%')
+    se (n2 == 0)
+    escreva("Divisor inválido")
+    senao
+    total = n1%n2
+
+  se (n2 != 0 ou (op != '/' e op != '%'))
+  escreva("O total foi", total)  
+  }
+  
+}

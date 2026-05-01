@@ -2,6 +2,7 @@
 
 int main() {
 
-    printf("oi");
+    printf("oi estou aqui\n");
+
 
 }
